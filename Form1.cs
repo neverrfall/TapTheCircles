@@ -25,6 +25,8 @@ namespace Tap_The_Circles_
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+            Form2 newForm = new Form2();
+            newForm.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
