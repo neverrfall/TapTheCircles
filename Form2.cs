@@ -31,23 +31,29 @@ namespace Tap_The_Circles_
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 newForm = new Form3();
-            newForm.Show();
-            Hide();
+            string difficulty = "Easy";
+            int step = 8;
+            int ballInterval = 1000;
+            Form3 form3 = new Form3 (difficulty, step, ballInterval);
+            form3.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form4 newForm = new Form4();
-            newForm.Show();
-            Hide();
+            string difficulty = "Medium";
+            int step = 16;
+            int ballInterval = 500;
+            Form3 form3 = new Form3 (difficulty, step, ballInterval);
+            form3.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form5 newForm = new Form5();
-            newForm.Show();
-            Hide();
+            string difficulty = "Hard";
+            int step = 22;
+            int ballInterval = 500;
+            Form3 form3 = new Form3 (difficulty, step, ballInterval);
+            form3.Show();
         }
     }
 }
