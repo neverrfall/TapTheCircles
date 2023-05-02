@@ -1,4 +1,5 @@
 using System;
+using System.Security;
 using System.Security.Cryptography.X509Certificates;
 using static System.Formats.Asn1.AsnWriter;
 using Timer = System.Windows.Forms.Timer;
@@ -17,16 +18,17 @@ namespace Tap_The_Circles_
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
-            Form2 newForm = new Form2();
-            newForm.Close();
+            Form2 form2 = new Form2();
+            Form3 form3 = new Form3("",0,0);
+            Form4 form4 = new Form4();
+            Form5 form5 = new Form5();
+            form2.Hide();
+            form3.Hide();
+            form4.Hide();
+            form5.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)

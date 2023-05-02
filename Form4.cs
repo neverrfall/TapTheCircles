@@ -17,27 +17,31 @@ namespace Tap_The_Circles_
             InitializeComponent();
         }
 
-        private int borderHeight = 100;
-        private int finalBorderHeight = 1080;
-        private int step = 16;
+        private int score;
+
+        public Form4(int score)
+        {
+            InitializeComponent();
+            this.score = score;
+        }
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            panel1.Height = borderHeight;
-            timer1.Start();
+            label1.Text = "Score: " + score.ToString();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (borderHeight < finalBorderHeight)
-            {
-                borderHeight += step;
-                panel1.Height = borderHeight;
-            }
-            else
-            {
-                timer1.Stop();
-            }
+            Form1 newForm = new Form1();
+            newForm.Show();
+            Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 newForm = new Form2();
+            newForm.Show();
+            Hide();
         }
     }
 }

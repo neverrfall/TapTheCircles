@@ -79,7 +79,7 @@
             this.Name = "Form3";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tap The Circles! - Easy";
+            this.Text = "Tap The Circles!";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form3_Load);
             this.panel1.ResumeLayout(false);

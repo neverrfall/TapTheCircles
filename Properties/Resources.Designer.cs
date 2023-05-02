@@ -123,6 +123,26 @@ namespace Tap_The_Circles_.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Выход_из_игры {
+            get {
+                object obj = ResourceManager.GetObject("Выход из игры", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Выход_из_игры1 {
+            get {
+                object obj = ResourceManager.GetObject("Выход из игры1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Главное_меню___без_магазина {
             get {
                 object obj = ResourceManager.GetObject("Главное меню - без магазина", resourceCulture);
@@ -136,6 +156,16 @@ namespace Tap_The_Circles_.Properties {
         internal static System.Drawing.Bitmap Главное_меню___без_магазина1 {
             get {
                 object obj = ResourceManager.GetObject("Главное меню - без магазина1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Завершение_игры {
+            get {
+                object obj = ResourceManager.GetObject("Завершение игры", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +196,16 @@ namespace Tap_The_Circles_.Properties {
         internal static System.Drawing.Bitmap Кнопка_выхода1 {
             get {
                 object obj = ResourceManager.GetObject("Кнопка выхода1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Кнопка_игры_заново {
+            get {
+                object obj = ResourceManager.GetObject("Кнопка игры заново", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -36,6 +36,7 @@ namespace Tap_The_Circles_
             int ballInterval = 1000;
             Form3 form3 = new Form3 (difficulty, step, ballInterval);
             form3.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -45,6 +46,7 @@ namespace Tap_The_Circles_
             int ballInterval = 500;
             Form3 form3 = new Form3 (difficulty, step, ballInterval);
             form3.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -54,6 +56,7 @@ namespace Tap_The_Circles_
             int ballInterval = 500;
             Form3 form3 = new Form3 (difficulty, step, ballInterval);
             form3.Show();
+            this.Hide();
         }
     }
 }
