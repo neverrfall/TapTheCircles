@@ -92,9 +92,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Nebulas Bold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "Form1";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tap The Circles!";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

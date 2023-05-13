@@ -43,11 +43,13 @@ namespace Tap_The_Circles_
             }
         }
 
+        private List<Rectangle> balls = new List<Rectangle>();
         private int finalBorderHeight = 1051;
         private int borderHeight;
         private int score = 0;
         private int timer1ticks = 0;
         private int timer2ticks = 0;
+
 
         private void Form3_Load(object sender, EventArgs e)
         {
@@ -93,11 +95,28 @@ namespace Tap_The_Circles_
             {
                 int x = rnd.Next(0, this.ClientSize.Width - 65);
                 int y = rnd.Next(borderHeight + 65, this.ClientSize.Height);
-                g.FillEllipse(Brushes.Black, x, 1051-y, 65, 65);
+                Rectangle ball = new Rectangle(x, 1051-y, 65, 65);
+                balls.Add(ball);
+                g.FillEllipse(Brushes.Black, ball);
             }
 
             // Освобождаем объект Graphics
             g.Dispose();
+        }
+
+        private void Form3_MouseClick(object sender, MouseEventArgs e)
+        {
+            foreach (Rectangle ball in balls)
+            {
+                if (ball.Contains(e.Location))
+                {
+                    balls.Remove(ball);
+                    score++;
+                    label1.Text = "Score: " + score;
+                    Invalidate(ball);
+                    break; 
+                }
+            }
         }
 
         private void timer2_Tick(object sender, EventArgs e)
