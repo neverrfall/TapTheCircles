@@ -12,9 +12,12 @@ namespace Tap_The_Circles_
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        private int balance;
+
+        public Form2(int balance)
         {
             InitializeComponent();
+            this.balance = balance;
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -24,7 +27,7 @@ namespace Tap_The_Circles_
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form1 newForm = new Form1();
+            Form1 newForm = new Form1(balance);
             newForm.Show();
             Hide();
         }
@@ -34,7 +37,7 @@ namespace Tap_The_Circles_
             string difficulty = "Easy";
             int step = 8;
             int ballInterval = 1000;
-            Form3 form3 = new Form3 (difficulty, step, ballInterval);
+            Form3 form3 = new Form3 (difficulty, step, ballInterval, balance);
             form3.Show();
             this.Hide();
         }
@@ -44,7 +47,7 @@ namespace Tap_The_Circles_
             string difficulty = "Medium";
             int step = 16;
             int ballInterval = 500;
-            Form3 form3 = new Form3 (difficulty, step, ballInterval);
+            Form3 form3 = new Form3 (difficulty, step, ballInterval, balance);
             form3.Show();
             this.Hide();
         }
@@ -54,7 +57,7 @@ namespace Tap_The_Circles_
             string difficulty = "Hard";
             int step = 22;
             int ballInterval = 500;
-            Form3 form3 = new Form3 (difficulty, step, ballInterval);
+            Form3 form3 = new Form3 (difficulty, step, ballInterval, balance);
             form3.Show();
             this.Hide();
         }

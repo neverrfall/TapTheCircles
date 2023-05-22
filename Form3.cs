@@ -16,10 +16,18 @@ namespace Tap_The_Circles_
     {
         private int step;
         private int ballInterval;
+        private int balance;
+        private List<Rectangle> balls = new List<Rectangle>();
+        private int finalBorderHeight = 1051;
+        private int borderHeight;
+        private int score = 0;
+        public static Color SelectedColor { get; set; } = Color.Black;
+        public static Color SelectedBallColor { get; set; } = Color.Black;
 
-        public Form3(string difficulty, int step, int ballInterval)
+        public Form3(string difficulty, int step, int ballInterval, int balance)
         {
             InitializeComponent();
+            this.balance = balance;
             this.step = step;
             this.ballInterval = ballInterval;
 
@@ -43,17 +51,11 @@ namespace Tap_The_Circles_
             }
         }
 
-        private List<Rectangle> balls = new List<Rectangle>();
-        private int finalBorderHeight = 1051;
-        private int borderHeight;
-        private int score = 0;
-        private int timer1ticks = 0;
-        private int timer2ticks = 0;
-
 
         private void Form3_Load(object sender, EventArgs e)
         {
             panel1.Height = 70;
+            panel1.BackColor = SelectedColor;
             timer2.Interval = ballInterval;
             timer1.Start();
             timer2.Start();
@@ -70,14 +72,13 @@ namespace Tap_The_Circles_
             {
                 timer1.Stop();
                 timer2.Stop();
-                Form4 form4 = new Form4(score);
+                Form4 form4 = new Form4(score, balance);
                 form4.Show();
                 this.Close();
             }
-            timer1ticks += 1;
         }
 
-        private void DrawBall()
+        public void DrawBall()
         {
             // Создаем новый объект Graphics для отрисовки на форме
             Graphics g = this.CreateGraphics();
@@ -87,17 +88,35 @@ namespace Tap_The_Circles_
             {
                 timer1.Stop();
                 timer2.Stop();
-                Form4 form4 = new Form4(score);
+                Form4 form4 = new Form4(score, balance);
                 form4.Show();
                 this.Close();
             }
             else
             {
-                int x = rnd.Next(0, this.ClientSize.Width - 65);
-                int y = rnd.Next(borderHeight + 65, this.ClientSize.Height);
-                Rectangle ball = new Rectangle(x, 1051-y, 65, 65);
+                int x, y;
+                Rectangle ball;
+                bool isCollision;
+
+                do
+                {
+                    isCollision = false;
+                    x = rnd.Next(0, this.ClientSize.Width - 65);
+                    y = rnd.Next(borderHeight + 65, this.ClientSize.Height);
+                    ball = new Rectangle(x, 1051 - y, 65, 65);
+
+                    foreach (Rectangle existingBall in balls)
+                    {
+                        if (ball.IntersectsWith(existingBall))
+                        {
+                            isCollision = true;
+                            break;
+                        }
+                    }
+                } while (isCollision);
+
                 balls.Add(ball);
-                g.FillEllipse(Brushes.Black, ball);
+                g.FillEllipse(new SolidBrush(SelectedBallColor), ball);
             }
 
             // Освобождаем объект Graphics
@@ -122,7 +141,6 @@ namespace Tap_The_Circles_
         private void timer2_Tick(object sender, EventArgs e)
         {
             DrawBall();
-            timer2ticks += 1;
         }
     }
 }

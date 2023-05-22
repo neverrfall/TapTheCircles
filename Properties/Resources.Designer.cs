@@ -83,6 +83,16 @@ namespace Tap_The_Circles_.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Green {
+            get {
+                object obj = ResourceManager.GetObject("Green", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hard {
             get {
                 object obj = ResourceManager.GetObject("Hard", resourceCulture);
@@ -96,6 +106,26 @@ namespace Tap_The_Circles_.Properties {
         internal static System.Drawing.Bitmap Medium {
             get {
                 object obj = ResourceManager.GetObject("Medium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pink {
+            get {
+                object obj = ResourceManager.GetObject("Pink", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Red {
+            get {
+                object obj = ResourceManager.GetObject("Red", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +193,16 @@ namespace Tap_The_Circles_.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Главное_меню___с_магазином {
+            get {
+                object obj = ResourceManager.GetObject("Главное меню - с магазином", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Завершение_игры {
             get {
                 object obj = ResourceManager.GetObject("Завершение игры", resourceCulture);
@@ -213,6 +253,16 @@ namespace Tap_The_Circles_.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Кнопка_магазина {
+            get {
+                object obj = ResourceManager.GetObject("Кнопка магазина", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Кнопка_старта {
             get {
                 object obj = ResourceManager.GetObject("Кнопка старта", resourceCulture);
@@ -226,6 +276,116 @@ namespace Tap_The_Circles_.Properties {
         internal static System.Drawing.Bitmap Кнопка_старта1 {
             get {
                 object obj = ResourceManager.GetObject("Кнопка старта1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Магазин___без_наведения_мыши {
+            get {
+                object obj = ResourceManager.GetObject("Магазин - без наведения мыши", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Магазин___без_наведения_мыши_1 {
+            get {
+                object obj = ResourceManager.GetObject("Магазин - без наведения мыши 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Магазин___без_наведения_мыши_2 {
+            get {
+                object obj = ResourceManager.GetObject("Магазин - без наведения мыши 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Просмотр_зеленого {
+            get {
+                object obj = ResourceManager.GetObject("Просмотр зеленого", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Просмотр_зеленого1 {
+            get {
+                object obj = ResourceManager.GetObject("Просмотр зеленого1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Просмотр_красного {
+            get {
+                object obj = ResourceManager.GetObject("Просмотр красного", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Просмотр_красного1 {
+            get {
+                object obj = ResourceManager.GetObject("Просмотр красного1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Просмотр_красного2 {
+            get {
+                object obj = ResourceManager.GetObject("Просмотр красного2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Просмотр_розового {
+            get {
+                object obj = ResourceManager.GetObject("Просмотр розового", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Просмотр_розового1 {
+            get {
+                object obj = ResourceManager.GetObject("Просмотр розового1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Просмотр_цвета {
+            get {
+                object obj = ResourceManager.GetObject("Просмотр цвета", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

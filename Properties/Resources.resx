@@ -118,55 +118,103 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Кнопка игры заново" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Кнопка игры заново.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="black_ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\black_ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Кнопка выхода в меню" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\files\Кнопка выхода в меню.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\files\Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Главное меню - без магазина" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\files\Главное меню - без магазина.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Кнопка выхода" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\files\Кнопка выхода.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Главное меню - без магазина1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\files\Главное меню - без магазина.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\files\Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\files\Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Выход из игры" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Выход из игры.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Кнопка старта" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\files\Кнопка старта.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Кнопка выхода1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\files\Кнопка выхода.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Кнопка старта1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\files\Кнопка старта.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Кнопка выхода" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\Кнопка выхода.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Завершение игры" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Завершение игры.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Выбор уровня сложности" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Выбор уровня сложности.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Кнопка выхода в меню" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\Кнопка выхода в меню.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Просмотр розового1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Просмотр розового.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Кнопка старта" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\Кнопка старта.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Главное меню - с магазином" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Главное меню - с магазином.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Просмотр цвета" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Просмотр цвета.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Кнопка магазина" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Кнопка магазина.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Магазин - без наведения мыши 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Магазин - без наведения мыши 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Выход из игры1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Выход из игры.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Кнопка выхода1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\Кнопка выхода.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Просмотр красного" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Просмотр красного.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Главное меню - без магазина" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\Главное меню - без магазина.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Кнопка игры заново" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Кнопка игры заново.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Выбор уровня сложности1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\files\Выбор уровня сложности.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Выход из игры1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Главное меню - без магазина1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\Главное меню - без магазина.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Просмотр розового" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Просмотр розового.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Магазин - без наведения мыши 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Магазин - без наведения мыши 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Выход из игры" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Выход из игры.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Выбор уровня сложности" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Выбор уровня сложности.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Просмотр зеленого1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Просмотр зеленого.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Просмотр зеленого" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Просмотр зеленого.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Просмотр красного1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Просмотр красного.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Магазин - без наведения мыши" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Магазин - без наведения мыши.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Просмотр красного2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Просмотр красного.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
